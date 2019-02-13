@@ -2,7 +2,7 @@
 % Please edit documentation in R/lift_func.R
 \name{lift_func}
 \alias{lift_func}
-\title{Lift Calculation Fucntion}
+\title{Lift Calculation Function}
 \usage{
 lift_func(df, var_lift, var_lift_ind, var_2, n, replacement = FALSE, ...)
 }

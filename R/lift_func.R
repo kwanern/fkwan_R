@@ -1,4 +1,4 @@
-#' Lift Calculation Fucntion
+#' Lift Calculation Function
 #'
 #' This function calculate lift by comparing averages of nth closest pscore
 #' @param df data frame that contains all variables in it
