@@ -11,6 +11,7 @@
 #' @return data frame with new lift column apended for indicator = 1 rows
 #' @examples
 #' lift_func(df, "NDS", "target", "pscore", 3)
+#' @export
 
 lift_func <- function(df, var_lift, var_lift_ind, var_2, n, replacement = FALSE, ...) {
   replace.idx <- c()

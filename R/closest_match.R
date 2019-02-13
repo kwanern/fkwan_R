@@ -9,6 +9,7 @@
 #' @return dataframe with n rows that have the closest match
 #' @examples
 #' closest_match(df, 0.5, "variable", 3)
+#' @export
 
 closest_match <- function(df, var_1, var_2, n) {
   sort_ls <- sort(abs(var_1 - df[, var_2]), method = "quick", index.return=TRUE)
