@@ -7,7 +7,7 @@
 #' @param var_2 column name in the dataframe to compared vector against var_1
 #' @param n nth closest variables
 #' @param replacement with or without replacement of selection
-#' @keywords closest_match
+#' @keywords lift_func
 #' @return data frame with new lift column apended for indicator = 1 rows
 #' @examples
 #' lift_func(df, "NDS", "target", "pscore", 3)

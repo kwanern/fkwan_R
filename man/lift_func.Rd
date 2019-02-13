@@ -28,4 +28,4 @@ This function calculate lift by comparing averages of nth closest pscore
 \examples{
 lift_func(df, "NDS", "target", "pscore", 3)
 }
-\keyword{closest_match}
+\keyword{lift_func}
