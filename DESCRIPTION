@@ -1,0 +1,13 @@
+Package: fkwan
+Title: Personal Functions
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Fu Ern",
+           family = "Kwan",
+           role = c("aut", "cre"),
+           email = "kwanern@umich.edu")
+Description: This package is used to accumulated a suite of functions.
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
