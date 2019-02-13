@@ -22,6 +22,6 @@ dataframe with n rows that have the closest match
 This function match n closest distance from a numeric variable
 }
 \examples{
-closest_match(df, 0.5, "varaible", 3)
+closest_match(df, 0.5, "variable", 3)
 }
 \keyword{closest_match}
