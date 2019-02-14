@@ -1,6 +1,8 @@
 #' n Closest Match Function
 #'
-#' This function match n closest distance from a numeric variable
+#' This function match n closest distance from a numeric variable.
+#' If the choosen variable rank is the same as others, they are shuffled
+#' and randonly selected.
 #' @param df data frame that contains all variables in it
 #' @param var_1 numeric number to pivot on
 #' @param var_lift column name in the dataframe to compared vector against `var_1`
@@ -13,5 +15,5 @@
 
 closest_match <- function(df, var_1, var_2, n) {
   sort_ls <- sort(abs(var_1 - df[, var_2]), method = "quick", index.return=TRUE)
-  return(df[sort_ls$ix[c(1:n)],])
+  return(df[sample(sort_ls$ix[sort_ls$x %in% sort_ls$x[c(1:n)]])[c(1:n)],])
 }
