@@ -1,6 +1,6 @@
 #' Lift Calculation Function
 #'
-#' This function calculate lift by comparing averages of nth closest pscore
+#' \code{lift_func} This function calculate lift by comparing averages of nth closest pscore
 #' @param df data frame that contains all variables in it
 #' @param var_lift column name in the dataframe to compared vector against `var_1`
 #' @param var_lift_ind column name for the indicator variable
