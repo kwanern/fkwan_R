@@ -21,7 +21,7 @@ dataframe with n rows that have the closest match
 \description{
 This function match n closest distance from a numeric variable.
 If the choosen variable rank is the same as others, they are shuffled
-and randonly selected.
+and randomly selected.
 }
 \examples{
 closest_match(df, 0.5, "variable", 3)

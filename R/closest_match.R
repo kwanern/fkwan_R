@@ -2,7 +2,7 @@
 #'
 #' This function match n closest distance from a numeric variable.
 #' If the choosen variable rank is the same as others, they are shuffled
-#' and randonly selected.
+#' and randomly selected.
 #' @inheritParams lift_func
 #' @param var_1 numeric number to pivot on
 #' @keywords closest_match
