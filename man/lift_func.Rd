@@ -23,7 +23,7 @@ lift_func(df, var_lift, var_lift_ind, var_2, n, replacement = FALSE, ...)
 data frame with new lift column apended for indicator = 1 rows
 }
 \description{
-\code{lift_func} This function calculate lift by comparing averages of nth closest pscore
+This function calculate lift by comparing averages of nth closest pscore
 }
 \examples{
 lift_func(df, "NDS", "target", "pscore", 3)

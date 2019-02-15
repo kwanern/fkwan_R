@@ -1,6 +1,6 @@
 #' n Closest Match Function
 #'
-#' \code{closest_match} This function match n closest distance from a numeric variable.
+#' This function match n closest distance from a numeric variable.
 #' If the choosen variable rank is the same as others, they are shuffled
 #' and randomly selected.
 #' @inheritParams lift_func
