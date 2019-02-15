@@ -11,9 +11,9 @@ closest_match(df, var_1, var_2, n)
 
 \item{var_1}{numeric number to pivot on}
 
-\item{n}{n closest variables}
+\item{var_2}{column name in the dataframe to compared vector against var_1}
 
-\item{var_lift}{column name in the dataframe to compared vector against `var_1`}
+\item{n}{nth closest variables}
 }
 \value{
 dataframe with n rows that have the closest match

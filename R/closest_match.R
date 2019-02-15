@@ -3,10 +3,8 @@
 #' This function match n closest distance from a numeric variable.
 #' If the choosen variable rank is the same as others, they are shuffled
 #' and randonly selected.
-#' @param df data frame that contains all variables in it
+#' @inheritParams lift_func
 #' @param var_1 numeric number to pivot on
-#' @param var_lift column name in the dataframe to compared vector against `var_1`
-#' @param n n closest variables
 #' @keywords closest_match
 #' @return dataframe with n rows that have the closest match
 #' @examples

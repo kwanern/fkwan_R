@@ -9,7 +9,7 @@ lift_func(df, var_lift, var_lift_ind, var_2, n, replacement = FALSE, ...)
 \arguments{
 \item{df}{data frame that contains all variables in it}
 
-\item{var_lift}{column name for the lift variable}
+\item{var_lift}{column name in the dataframe to compared vector against `var_1`}
 
 \item{var_lift_ind}{column name for the indicator variable}
 
