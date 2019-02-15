@@ -13,5 +13,5 @@
 
 closest_match <- function(df, var_1, var_2, n) {
   sort_ls <- sort(abs(var_1 - df[, var_2]), method = "quick", index.return=TRUE)
-  return(df[sample(sort_ls$ix[sort_ls$x %in% sort_ls$x[c(1:n)]])[c(1:n)],])
+  return(df[base::sample(c(sort_ls$ix[sort_ls$x %in% sort_ls$x[c(1:n)]]))[c(1:n)],])
 }
